@@ -1,0 +1,14 @@
+debapp takes a golang web application, builds it, and creates a debian package
+out of it.
+
+Dependencies
+------------
+sudo apt-get install dh-make dpkg-dev bzr mercurial
+
+Installation
+------------
+make install
+
+Usage
+-----
+/tmp/debapp/build.sh https://github.com/kaosf/golang-hello-world
